@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.main-header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+.nav-container { display: flex; justify-content: space-between; align-items: center; }
+.logo span { color: #00bcd4; }
+.nav-list { list-style: none; display: flex; gap: 1rem; }
+.nav-list a { color: white; text-decoration: none; }
+.container { max-width: 800px; margin: 2rem auto; }
+.card-section { background: #fff; padding: 1rem; margin-bottom: 1rem; border-radius: 5px; }
+.form-section { margin-top: 1rem; }
+input, textarea, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button { cursor: pointer; background: #00bcd4; color: white; border: none; }
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.posts-list p { background: #eef; padding: 0.5rem; border-radius: 3px; margin: 0.5rem 0; }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: #fff;
+}
+.hero-content { max-width: 50%; }
+.hero-content h1 { font-size: 3rem; margin-bottom: 1rem; }
+.hero-ctas .btn-primary,
+.hero-ctas .btn-secondary {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-primary { background: #00bcd4; color: #fff; }
+.btn-secondary { background: #333; color: #fff; }
+.features { padding: 3rem 2rem; background: #f9f9f9; }
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.feature-card { text-align: center; }
+.cta-banner {
+  padding: 2rem;
+  text-align: center;
+  background: #00bcd4;
+  color: white;
+}

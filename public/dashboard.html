@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard – CyberSafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="nav-container">
+      <div class="logo">Cyber<span>Safe</span></div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a id="logout-btn" href="#">Log out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Welcome, <span id="user-display"></span>!</h2>
+
+    <section class="card-section">
+      <h3>Your Posts</h3>
+      <div id="user-posts" class="posts-list"></div>
+    </section>
+
+    <section class="card-section">
+      <h3>Your Resources</h3>
+      <div id="user-resources" class="posts-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

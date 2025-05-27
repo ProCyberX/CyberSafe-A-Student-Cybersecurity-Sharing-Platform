@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>CyberSafe – Share & Post</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="nav-container">
+      <div class="logo">Cyber<span>Safe</span></div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="landing.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a id="logout-btn" href="#">Log out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card-section">
+      <h2>Your Forum Posts</h2>
+      <div id="forum-posts" class="posts-list"></div>
+      <form id="post-form" class="form-section">
+        <textarea id="new-post" placeholder="Share your thoughts on cybersecurity..." required></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+
+    <section class="card-section">
+      <h2>Share a New Resource</h2>
+      <form id="resource-form" class="form-section">
+        <label for="resource-link">Resource URL</label>
+        <input type="url" id="resource-link" placeholder="https://example.com/tutorial" required />
+        <button type="submit">Add Resource</button>
+      </form>
+    </section>
+
+    <section class="card-section">
+      <h2>All Shared Resources</h2>
+      <div id="resources-list" class="posts-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CyberSafe • Developed by Khwairakpam Prosenjit Singha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
