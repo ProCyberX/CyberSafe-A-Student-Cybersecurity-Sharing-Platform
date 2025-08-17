@@ -37,6 +37,7 @@ I built CyberSafe as a secure web application designed to serve as a Student Cyb
    node server.js
 
 5. Open your browser to http://localhost:3000
+6. deployed website:https://cyber-safe-a-student-cybersecurity.vercel.app/
 
 Author:
 Khwairakpam Prosenjit (@ProCyberX)
